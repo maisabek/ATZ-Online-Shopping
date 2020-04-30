@@ -1,0 +1,35 @@
+.header{
+    background: url(src/assets/images/16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+       min-height: 500px;
+}
+.overlay{
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    background: rgba(5, 3, 3, 0.5);
+}
+.header-h5,.header-p{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 16%;
+    font-size: 20px;
+}
+.header-p{margin-top: 18%; margin-left: 38%;}
+.shop-img{height: 280px;}
+h5{font-size: 15px;}
+@media (max-width: 767px ){/* mobile & tablet*/
+
+
+
+}
+@media (min-width: 768px) and (max-width:991px){ /* small screen */
+
+
+
+}
+@media (min-width: 992px) and (max-width:1199px) { /* medium screen */
+
+
+}

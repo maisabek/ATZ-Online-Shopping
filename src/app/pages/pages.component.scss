@@ -1,0 +1,36 @@
+.header{
+    background: url(src/assets/images/01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+       min-height: 500px;
+}
+.overlay{
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    background: rgba(5, 3, 3, 0.5);
+}
+.header-h5,.header-p{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 16%;
+    font-size: 20px;
+}
+.header-p{margin-top: 18%; margin-left: 38%;}
+.hidden-para,.hidden-para2,.hidden-para3,
+.hidden-para4,.hidden-para5,.hidden-para6
+{display: none;}
+@media (max-width: 767px ){/* mobile & tablet*/
+
+
+
+}
+@media (min-width: 768px) and (max-width:991px){ /* small screen */
+
+
+
+}
+@media (min-width: 992px) and (max-width:1199px) { /* medium screen */
+
+
+}
